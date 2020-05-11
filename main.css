@@ -1,0 +1,69 @@
+main{
+    margin-top: -3%;
+    margin-left: 10%;
+    margin-right: 8%;
+    background-image: linear-gradient(to top right,rgb(255,0,0),rgb(255, 255, 255));
+}
+h1{
+    font-family: monospace;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    margin-left: 80px;
+}
+#first{
+    text-decoration: none;
+    color: rgb(200, 0, 0);
+    font-family: fantasy;
+}
+body{
+    background: red;
+    font-family: cursive;
+}
+nav{
+    font-size: 20px;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    }
+nav>a{
+    background-image: linear-gradient(to top right,rgb(255, 255, 255),rgb(255, 0, 0));
+    width: 25%;
+    color: white;
+    text-align: center;
+}
+.active{
+    background-image: linear-gradient(to top left,rgb(255, 255, 255),rgb(255, 0, 0));
+    box-shadow: 4px 6px 10px 4px white;
+    cursor: pointer;
+}
+a{
+    color:darkblue;
+    text-decoration: none;
+    display: block;
+    margin-left: 1%;
+}
+img{
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+}
+h2{
+    text-align: center;
+    color: rgb(200, 0,0);
+    text-shadow: 10px;
+}
+div{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: azure;
+    font: italic bold;
+}
+p{
+    text-indent: 20px;
+    color: #F0F8FF;
+}
+.navi a:hover{
+    box-shadow: 4px 6px 10px 4px red;
+    cursor: pointer;
+}
